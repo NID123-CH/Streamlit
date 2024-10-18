@@ -10,7 +10,7 @@ file_path = 'C:/Users/Puneet Makkar/Desktop/Streamlitapp/global_development_data
 
 # Load the CSV file
 data = pd.read_csv(file_path)
-min_year = int(data['year'].min()
+min_year = int(data['year'].min())
 max_year = int(data['year'].max())
 
 
